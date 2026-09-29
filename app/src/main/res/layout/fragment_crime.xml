@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    >
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_title_label"
+        />
+
+    <EditText
+        android:id="@+id/crime_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/crime_title_hint"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle"
+        android:text="@string/crime_details_label"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:text="@string/date1"
+        android:textAllCaps="false"
+        android:id="@+id/crime_date"/>
+
+
+
+    <CheckBox
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_solved_label"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:text="@string/suspectBtn"
+        android:textAllCaps="true"
+        android:id="@+id/choose_suspect"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:text="@string/sendBtn"
+        android:textAllCaps="true"
+        android:id="@+id/send_crime_report"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:text="@string/callSuspect"
+        android:textAllCaps="true"
+        android:id="@+id/call_suspect_btn"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">prakt17_3_romanov</string>
+    <string name="crime_title_hint">Enter a title for the crime</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="date1">Wed Nov 14 11:56 EST 2018</string>
+    <string name="suspectBtn">Choose suspect</string>
+    <string name="sendBtn">send crime report</string>
+    <string name="discovery">%1$s!The crime was discovered on %2$s. %3$s, and %4$s</string>
+    <string name="solved">The case is solved</string>
+    <string name="notSolved">The case is not solved</string>
+    <string name="noSuspect">there is no suspect</string>
+    <string name="suspect">the suspect is %1$s</string>
+    <string name="criminalIntent">CriminalIntent</string>
+    <string name="sendCrime">Send crime</string>
+    <string name="callSuspect">Call suspect</string>
+    <string name="crime_call_no_number">У подозреваемого нет номера телефона</string>
+    <string name="crime_call_no_permission">Нужно разрешение на доступ к контактам</string>
+</resources>
